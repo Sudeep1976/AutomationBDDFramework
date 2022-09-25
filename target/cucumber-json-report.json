@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 70121000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Homepage",
+            "match": {
+              "location": "SignInSteps.user_is_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1258950100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types Biscuit in searchbox and clicks magnifyingglass",
+            "match": {
+              "location": "SearchBoxSteps.user_types_Biscuit_in_searchbox_and_clicks_magnifyingglass()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to get all the biscuit products",
+            "match": {
+              "location": "SearchBoxSteps.user_should_be_able_to_get_all_the_biscuit_products()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the result page",
+            "match": {
+              "location": "ResultPage_christmasbuttonsteps.user_is_on_the_result_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1086570100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on christmas button",
+            "match": {
+              "location": "ResultPage_christmasbuttonsteps.user_clicks_on_christmas_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to see all the christmas products",
+            "match": {
+              "location": "ResultPage_christmasbuttonsteps.user_should_be_able_to_see_all_the_christmas_products()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5155931200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Click on one of the christmas biscuit",
+        "description": "",
+        "id": "christmas-product-range;click-on-one-of-the-christmas-biscuit",
+        "after": [
+          {
+            "result": {
+              "duration": 12400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 206100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on the webpage where user can see all the christmas products",
+            "match": {
+              "location": "Christmasproductsteps.user_is_on_the_webpage_where_user_can_see_all_the_christmas_products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4256523900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on add to basket button for mince pies",
+            "match": {
+              "location": "Christmasproductsteps.user_clicks_on_add_to_basket_button_for_mince_pies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be able to add the product into the basket",
+            "match": {
+              "location": "Christmasproductsteps.user_should_be_able_to_add_the_product_into_the_basket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Christmas Product range",
+    "description": "",
+    "id": "christmas-product-range",
+    "keyword": "Feature",
+    "uri": "src/test/Resource/Christmaspage.feature"
+  }
+]

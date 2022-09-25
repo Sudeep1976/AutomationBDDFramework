@@ -1,0 +1,14 @@
+Feature: Christmas Product range
+
+  Background:                                                       [90m# src/test/Resource/Christmaspage.feature:3[0m
+    [32mGiven [0m[32mUser is on the Homepage[0m                                   [90m# SignInSteps.user_is_on_the_Homepage()[0m
+    [32mWhen [0m[32mUser types Biscuit in searchbox and clicks magnifyingglass[0m [90m# SearchBoxSteps.user_types_Biscuit_in_searchbox_and_clicks_magnifyingglass()[0m
+    [32mThen [0m[32mUser should be able to get all the biscuit products[0m        [90m# SearchBoxSteps.user_should_be_able_to_get_all_the_biscuit_products()[0m
+    [32mGiven [0m[32mUser is on the result page[0m                                [90m# ResultPage_christmasbuttonsteps.user_is_on_the_result_page()[0m
+    [32mWhen [0m[32mUser clicks on christmas button[0m                            [90m# ResultPage_christmasbuttonsteps.user_clicks_on_christmas_button()[0m
+    [32mThen [0m[32mUser should be able to see all the christmas products[0m      [90m# ResultPage_christmasbuttonsteps.user_should_be_able_to_see_all_the_christmas_products()[0m
+
+  Scenario: Click on one of the christmas biscuit                              [90m# src/test/Resource/Christmaspage.feature:12[0m
+    [32mGiven [0m[32mUser is on the webpage where user can see all the christmas products[0m [90m# Christmasproductsteps.user_is_on_the_webpage_where_user_can_see_all_the_christmas_products()[0m
+    [32mWhen [0m[32mUser clicks on add to basket button for mince pies[0m                    [90m# Christmasproductsteps.user_clicks_on_add_to_basket_button_for_mince_pies()[0m
+    [32mThen [0m[32mUser should be able to add the product into the basket[0m                [90m# Christmasproductsteps.user_should_be_able_to_add_the_product_into_the_basket()[0m
